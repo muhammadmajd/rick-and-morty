@@ -1,0 +1,83 @@
+name: rickmorty
+description: "Ricky and marto developed by Muhammad Aliah"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  iconsax: ^0.0.8
+  # Internet Connection
+  connectivity_plus: ^6.1.2
+
+  # for GraphQL
+  graphql_flutter: ^5.2.1
+  #state management
+  get: ^4.7.2
+
+  logger: ^2.5.0
+  lottie: ^3.2.0
+
+  # saving data locally:
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.1
+  #http: ^1.1.0
+  # for caching img
+  cached_network_image: ^3.3.0
+  #image: ^4.0.17
+  #http: ^1.5.0
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^2.0.0
+  build_runner: ^2.4.0
+  #flutter packages pub run build_runner build
+
+  flutter_lints: ^5.0.0
+
+
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/logos/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/poppins/
+    - assets/screenshots/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/poppins/Poppins-LightItalic.ttf
+          weight: 300
+        - asset: assets/fonts/poppins/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/poppins/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/poppins/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/poppins/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        -  asset: assets/fonts/poppins/Poppins-SemiBold.ttf
+           weight: 600
+        -  asset: assets/fonts/poppins/Poppins-Medium.ttf
