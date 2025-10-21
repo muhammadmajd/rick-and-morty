@@ -69,6 +69,8 @@
  <td><img src="assets/screenshots/18.jpeg" width="250"/></td>
 </tr>
 </table>
+
+
 ##  Архитектура проекта
 
 Приложение построено по принципам **Clean Architecture** с разделением на независимые слои:
