@@ -79,6 +79,8 @@
 
 ### Слои архитектуры
 <img src="assets/screenshots/structure.png" alt="Слои" width="300">
+
+
 #### 1. Доменный слой (Бизнес-логика)
 - **Entities**: Основные бизнес-объекты (`Character`, `Episode`, `Location`)
 - **Repositories**: Абстрактные интерфейсы определяющие операции с данными
@@ -162,4 +164,4 @@
 1. **Клонируйте репозиторий**
    ```bash
    git clone https://github.com/muhammadmajd/rick-and-morty.git
-   cd rickmorty# rick-and-morty
+   cd rick-and-morty
